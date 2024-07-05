@@ -79,14 +79,14 @@
                  
                  GET:<br>
                      - /getAllUsers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: xem tất cả nick<br>
-                     - /getAllUrls&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: xem tất cả urls<br>
+                     - /getAllUrls&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: xem tất cả urls<br>
  
                  <br>POST:<br>
-                     - /register&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: tạo nick<br>
-                     - /new&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: tạo link mới<br>
+                     - /register&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: tạo tài khoản<br>
+                     - /new&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: tạo link rút gọn<br>
              </p>
              <br>
-             <h2>Thông Tin Đi Kèm Của POST</h2>
+             <h2>Thông Tin Body Của POST</h2>
              <h4>/register</h4>
              <table>
                  <thead>
@@ -120,7 +120,7 @@
                  </thead>
                  <tbody>
                  <tr>
-                     <td>shortUrl</td>
+                     <td>originalUrl</td>
                      <td>String</td>
                      <td>Toàn bộ url gốc</td>
                  </tr>
